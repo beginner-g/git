@@ -10,5 +10,11 @@
 * git log 查看当前版本信息
 * git log --pretty=oneline 显示1行
 * git reset --hard [版本号] 回退到该版本
-* git init 将本地的文件夹变成仓库
-*************
+
+* 把本地建的文件夹上传到网上
+  1.先在网上创建仓库
+  2.git init(将本地的文件夹变成仓库)
+  3.git add README.md
+  4.git commit -m "first commit"
+  5.git remote add origin git@github.com:beginner-g/a.git
+  6.git push -u origin master
